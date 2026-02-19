@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DesertCart</title>
+</head>
+<body onload="checkAuth(); loadProducts();">
+  <h1>DesertCart Products</h1>
+
+  <div id="products" style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;"></div>
+
+  <br />
+  <a href="cart.html">Go to Cart</a>
+  <button onclick="logoutUser()">Logout</button>
+
+  <!-- Auth logic -->
+  <script src="../js/auth.js"></script>
+  <!-- Products API + UI -->
+  <script src="../js/api/products.js"></script>
+</body>
+</html>
