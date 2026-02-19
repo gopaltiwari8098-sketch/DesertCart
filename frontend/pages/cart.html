@@ -2,14 +2,32 @@
 <html>
 <head>
   <title>Your Cart</title>
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/layout.css" />
+  <link rel="stylesheet" href="../css/pages.css" />
 </head>
 <body onload="renderCart()">
-  <h1>Your Cart</h1>
-  <div id="cart"></div>
-  <h3 id="total"></h3>
-  <button onclick="checkout()">Checkout</button>
-  <a href="index.html">Back to Products</a>
 
+  <div class="navbar">
+    <div class="nav-inner">
+      <div class="brand">Desert<span>Cart</span></div>
+      <div class="nav-actions">
+        <a href="index.html" class="secondary">Shop</a>
+        <button onclick="logoutUser()">Logout</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>Your Cart</h1>
+    <div id="cart"></div>
+    <div class="total" id="total"></div>
+    <button onclick="checkout()">Checkout</button>
+  </div>
+
+  <div class="footer">Secure checkout powered by DesertCart</div>
+
+  <script src="../js/auth.js"></script>
   <script src="../js/cart.js"></script>
 </body>
 </html>

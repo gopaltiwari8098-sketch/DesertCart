@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product • DesertCart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/layout.css" />
+  <link rel="stylesheet" href="../css/pages.css" />
+</head>
+<body onload="loadProductDetails()">
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="nav-inner">
+      <div class="brand">Desert<span>Cart</span></div>
+      <div class="nav-actions">
+        <a href="index.html" class="secondary">Back</a>
+        <a href="cart.html" class="secondary">Cart</a>
+        <button onclick="logoutUser()">Logout</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product Details -->
+  <div class="container">
+    <div id="product-details" class="card" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+      <!-- Filled by JS -->
+    </div>
+  </div>
+
+  <div class="footer">© 2026 DesertCart</div>
+
+  <script src="../js/auth.js"></script>
+  <script src="../js/cart.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

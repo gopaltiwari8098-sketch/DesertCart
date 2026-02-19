@@ -2,19 +2,35 @@
 <html>
 <head>
   <title>DesertCart</title>
+  <link rel="stylesheet" href="../css/base.css" />
+  <link rel="stylesheet" href="../css/layout.css" />
+  <link rel="stylesheet" href="../css/pages.css" />
 </head>
 <body onload="checkAuth(); loadProducts();">
-  <h1>DesertCart Products</h1>
 
-  <div id="products" style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;"></div>
+  <div class="navbar">
+    <div class="nav-inner">
+      <div class="brand">Desert<span>Cart</span></div>
+      <div class="nav-actions">
+        <a href="cart.html" class="secondary">Cart</a>
+        <button onclick="logoutUser()">Logout</button>
+      </div>
+    </div>
+  </div>
 
-  <br />
-  <a href="cart.html">Go to Cart</a>
-  <button onclick="logoutUser()">Logout</button>
+  <div class="hero">
+    <h1>Discover premium products</h1>
+    <p>Curated electronics & essentials with fast checkout.</p>
+  </div>
 
-  <!-- Auth logic -->
+  <div class="container">
+    <div id="products" class="grid"></div>
+  </div>
+
+  <div class="footer">© 2026 DesertCart</div>
+
   <script src="../js/auth.js"></script>
-  <!-- Products API + UI -->
-  <script src="../js/api/products.js"></script>
+  <script src="../js/cart.js"></script>
+  <script src="../js/main.js"></script>
 </body>
 </html>

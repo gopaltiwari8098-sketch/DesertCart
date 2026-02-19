@@ -1,16 +1,23 @@
-<<<<<<< HEAD
 # DesertCart 🛒
 
-A full-stack e-commerce platform built with
-HTML, CSS, JavaScript, Node.js, and MongoDB.
+A full-stack e-commerce MVP built with:
+- Node.js, Express
+- MongoDB Atlas
+- JWT Authentication
+- Vanilla JS Frontend
 
-## Goal
-To build a scalable, production-style e-commerce application
-following industry best practices.
+## Features
+- User Register/Login
+- Product Listing
+- Cart Management
+- Checkout & Orders
 
-## Status
-🚧 In active development
-=======
-# DesertCart
-Full Stack E-Commerce Application using MERN
->>>>>>> fd5eeade818c90fe12b85713d010e2c40080644e
+## Tech Stack
+Backend: Node.js, Express, MongoDB  
+Frontend: HTML, CSS, JS
+
+## Setup (Local)
+1. cd backend
+2. npm install
+3. npm run dev
+4. Open frontend/pages/index.html with Live Server
