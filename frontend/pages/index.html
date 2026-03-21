@@ -24,6 +24,15 @@
   </div>
 
   <div class="container">
+    <!-- 🔍 Search Bar -->
+    <input
+      id="search"
+      type="text"
+      placeholder="Search products..."
+      oninput="filterProducts()"
+      style="margin-bottom:12px;"
+    />
+
     <div id="products" class="grid"></div>
   </div>
 
