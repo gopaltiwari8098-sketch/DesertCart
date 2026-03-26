@@ -1,23 +1,26 @@
 # DesertCart 🛒
 
-A full-stack e-commerce MVP built with:
-- Node.js, Express
+A full-stack e-commerce application built with:
+
+- Node.js
+- Express
 - MongoDB Atlas
 - JWT Authentication
-- Vanilla JS Frontend
+- Vanilla JavaScript frontend
 
 ## Features
-- User Register/Login
+
+- User Registration & Login
 - Product Listing
 - Cart Management
-- Checkout & Orders
+- Checkout & Order Placement
 
 ## Tech Stack
+
 Backend: Node.js, Express, MongoDB  
-Frontend: HTML, CSS, JS
+Frontend: HTML, CSS, JavaScript
 
 ## Setup (Local)
-1. cd backend
-2. npm install
-3. npm run dev
-4. Open frontend/pages/index.html with Live Server
+
+1. Clone the repository
+2. Go to backend folder
