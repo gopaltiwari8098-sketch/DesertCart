@@ -1,4 +1,4 @@
-const API_PRODUCTS = 'http://localhost:5000/api/products';
+const API_PRODUCTS = 'https://desertcart.onrender.com';
 
 window.loadProducts = async function () {
   const container = document.getElementById('products');

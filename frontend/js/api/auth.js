@@ -1,4 +1,4 @@
-const AUTH_API = 'http://localhost:5000/api/auth';
+const AUTH_API = 'https://desertcart.onrender.com';
 
 export async function apiRegister({ name, email, password }) {
   const res = await fetch(`${AUTH_API}/register`, {
